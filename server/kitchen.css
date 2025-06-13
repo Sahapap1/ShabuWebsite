@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow: hiddens;
+}
+
+.left_menu {
+    background-color: #A4031F;
+    float: left;
+    width: 20%;
+    height: 100%;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+    position: fixed;
+}
+
+.main {
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding: 4rem;
+    text-align: center;
+}
+
+.all_order {
+    margin: 2rem;
+}
+
+.order_box {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(143, 143, 143);
+}
+
+.order_box h4 {
+    text-align: left;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.order_table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 1rem;
+
+}
+
+.order_table h4 {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 7px 0px;
+}
+
+.btn_confirm_prepar {
+    color: white;
+    background-color: rgb(2, 185, 2);
+    padding: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn_confirm_prepar:active, #confirm_serve:active {
+    background-color: green;
+}
+
+.order_size, .order_count {
+    color: red;
+}
+
+#confirm_serve {
+    padding: 1.8rem;
+    background-color: rgb(2, 185, 2);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+
+}

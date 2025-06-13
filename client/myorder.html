@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uro Shabu</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- socket.io -->
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Uro Shabu</h1>
+        <nav>
+            <a href="index.html"><p><i class="fa-solid fa-house"></i></p></a>
+            <p>-- Table 1 --</p>
+            <a href=""><p><i class="fa-solid fa-basket-shopping"></i></p></a>
+        </nav>
+        <div class="container_order">
+            <h3>รายการที่สั่ง</h3>
+            <ul id="all-my-order">
+                <!-- <li>
+                    <div class="list_order">
+                        <img src="/website/Uro Shabu web project/img/Sliced_Pork_Bacon.jpg" alt="">
+                        <div class="order_container">
+                            <h5>Sliced Pork Bacon</h5>
+                            <h5>สามชั้นหมูสไลด์</h5>
+                            <h5 class="myorder-size">ขนาดเล็ก</h5>
+                            <div class="add-remove add-remove-myorder">
+                                <button class="remove"><i class="fa-solid fa-minus"></i></button>
+                                <h5></h5>
+                                <button class="add"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <span class="close" id="remove-order-menu">&times;</span>
+                    </div>
+                </li> -->
+            </ul>
+            <button id="confirm-order" onclick="sendOrdering()">ยืนยันรายการสั่งอาหาร</button>
+        </div>
+    </div>
+    <script src="asset/myorder.js"></script>
+</body>
+</html>

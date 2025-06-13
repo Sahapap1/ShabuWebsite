@@ -1,0 +1,319 @@
+{
+    "menu": [
+        {
+            "ENname": "Sliced Beef",
+            "THname": "เนื้อสไลด์",
+            "path": "img/Sliced_Beef.jpg",
+            "category": "beef",
+            "size": "true"
+        },
+        {
+            "ENname": "Sliced Pork Neck",
+            "THname": "สันคอหมูสไลด์",
+            "path": "img/Sliced_Pork_Neck.jpg",
+            "category": "pork",
+            "size": "true"
+        },
+        {
+            "ENname": "Sliced Pork Loin",
+            "THname": "สันนอกหมูสไลด์",
+            "path": "img/Sliced_Pork_Loin.jpg",
+            "category": "pork",
+            "size": "true"
+        },
+        {
+            "ENname": "Sliced Pork Bacon",
+            "THname": "สามชั้นหมูสไลด์",
+            "path": "img/Sliced_Pork_Bacon.jpg",
+            "category": "pork",
+            "size": "true"
+        },
+        {
+            "ENname": "Sliced Chicken",
+            "THname": "อกไก่สไลด์",
+            "path": "img/Sliced_Chicken.jpg",
+            "category": "etc",
+            "size": "true"
+        },
+        {
+            "ENname": "Pork Liver",
+            "THname": "ตับหมู",
+            "path": "img/Pork_Liver.jpg",
+            "category": "pork",
+            "size": "false"
+        },
+        {
+            "ENname": "Pork Lava",
+            "THname": "หมูลาวา",
+            "path": "img/Pork_Lava.jpg",
+            "category": "pork",
+            "size": "false"
+        },
+        {
+            "ENname": "Chicken Lava",
+            "THname": "ไก่ลาวา",
+            "path": "img/Chicken_Lava.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Garnished Minced Pork",
+            "THname": "หมูไม้ไผ่",
+            "path": "img/Garnished_Minced_Pork.jpg",
+            "category": "pork",
+            "size": "false"
+        },
+        {
+            "ENname": "Seaweed Wrapped Pork",
+            "THname": "หมูสาหร่าย",
+            "path": "img/Seaweed_Wrapped_Pork.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Squid Stuffed with Pork",
+            "THname": "ปลาหมึกยัดไส้หมูสับ",
+            "path": "img/Squid_Stuffed_with_Pork.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Chilean Mussels",
+            "THname": "หอยแมลงภู่ชิลี",
+            "path": "img/Chilean_Mussels.jpg",
+            "category": "seafood",
+            "size": "false"
+        },
+        {
+            "ENname": "Prawn",
+            "THname": "กุ้ง",
+            "path": "img/Prawn.jpg",
+            "category": "seafood",
+            "size": "false"
+        },
+        {
+            "ENname": "Jelly Fish",
+            "THname": "แมงกะพรุน",
+            "path": "img/Jelly_Fish.jpg",
+            "category": "seafood",
+            "size": "false"
+        },
+        {
+            "ENname": "Squid",
+            "THname": "ปลาหมึก",
+            "path": "img/Squid.jpg",
+            "category": "seafood",
+            "size": "false"
+        },
+        {
+            "ENname": "Dolly Fish",
+            "THname": "ปลาดอลลี่",
+            "path": "img/Dolly_Fish.jpg",
+            "category": "seafood",
+            "size": "false"
+        },
+        {
+            "ENname": "Crispy Squid",
+            "THname": "ปลาหมึกกรอบ",
+            "path": "img/Crispy_Squid.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Fish Noodle",
+            "THname": "ปลาเส้น",
+            "path": "img/Fish_Noodle.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Prawn Meatball",
+            "THname": "ลูกชิ้นกุ้ง",
+            "path": "img/Prawn_Meatball.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Fish Meatball",
+            "THname": "ลูกชิ้นปลาสองสี",
+            "path": "img/Fish_Meatball.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Crab Stick",
+            "THname": "ปูอัด",
+            "path": "img/Crab_Stick.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Crabstick with Cheese",
+            "THname": "ปูอัดชีส",
+            "path": "img/Crabstick_with_Cheese.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Fish Roll Stuffed with Salted Egg",
+            "THname": "ปลาม้วนไข่เค็ม",
+            "path": "img/Fish_Roll_Stuffed_with_Salted_Egg.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Pork Dumplings",
+            "THname": "เกี๊ยวหมู",
+            "path": "img/Pork_Dumplings.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Fish Tofu",
+            "THname": "เต้าหู้ปลา",
+            "path": "img/Fish_Tofu.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Cheese Tofu",
+            "THname": "เต้าหู้ชีส",
+            "path": "img/Cheese_Tofu.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Egg Tofu",
+            "THname": "เต้าหู้ไข่",
+            "path": "img/Egg_Tofu.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Seafood Tofu Cure",
+            "THname": "ฟองเต้าหู้ซีฟู้ด",
+            "path": "img/Seafood_Tofu_Cure.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Green Noodle",
+            "THname": "หมี่หยก",
+            "path": "img/Green_Noodle.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Glass Noodle",
+            "THname": "วุ้นเส้น",
+            "path": "img/Glass_Noodle.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Instant Noodle",
+            "THname": "มาม่า",
+            "path": "img/Instant_Noodle.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Mozzarella Cheese",
+            "THname": "ชีส",
+            "path": "img/Mozzarella_Cheese.jpg",
+            "category": "cheese",
+            "size": "false"
+        },
+        {
+            "ENname": "Rice",
+            "THname": "ข้าวสวย",
+            "path": "img/Rice.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Egg",
+            "THname": "ไข่ไก่",
+            "path": "img/Egg.jpg",
+            "category": "etc",
+            "size": "false"
+        },
+        {
+            "ENname": "Shimeji Mushroom",
+            "THname": "เห็ดชิเมจิ",
+            "path": "img/Shimeji_Mushroom.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Orinji Mushroom",
+            "THname": "เห็ดออรินจิ",
+            "path": "img/Orinji_Mushroom.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Enoki Mushroom",
+            "THname": "เห็ดเข็มทอง",
+            "path": "img/Enoki_Mushroom.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "sweet Corn",
+            "THname": "ข้าวโพดหวาน",
+            "path": "img/Sweet_Corn.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Carrot",
+            "THname": "แครอท",
+            "path": "img/Carrot.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Lettuce",
+            "THname": "กะหล่ำปลี",
+            "path": "img/Lettuce.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Wakame Seaweed",
+            "THname": "สาหร่ายวากาเมะ",
+            "path": "img/Wakame_Seaweed.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Mixe Vegetables",
+            "THname": "ผักรวม",
+            "path": "img/Mixed_Vegetables.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Taiwanese Choy",
+            "THname": "ผักกวางตุ้งไต้หวัน",
+            "path": "img/Taiwanese_Choy.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Chinese Morning Glory",
+            "THname": "ผักบุ้ง",
+            "path": "img/Chinese_Morning_Glory.jpg",
+            "category": "vegetable",
+            "size": "false"
+        },
+        {
+            "ENname": "Cabbage",
+            "THname": "ผักกาดขาว",
+            "path": "img/Cabbage.jpg",
+            "category": "vegetable",
+            "size": "false"
+        }
+    ]
+}

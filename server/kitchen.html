@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uro shabu kitchen site</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./kitchen.css">
+    <!-- socket.io  -->
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left_menu">
+            <h1>Uro Shabu</h1>
+        </div>
+        <div class="main">
+            <h1>Order list</h1>
+            <ul class="all_order" id="display_order">
+                <!-- <li>
+                    <div class="order_box">
+                        <h4>table 1 </h4>
+                        <h4>order 1 </h4>
+                        <ul>
+                            <li>
+                                <div class="order_table">
+                                    <img src="../client/img/Crab_Stick.jpg" alt="">
+                                    <div class="menu_name">
+                                        <h4>Crab Stick</h4>
+                                        <h4>ปูอัด</h4>
+                                    </div>
+                                    <div class="count_and_size">
+                                        <h4>ขนาด <span class="order_size">เล็ก</span></h4>
+                                        <h4>จำนวน <span class="order_count">1</span> ถาด</h4>
+                                    </div>
+                                    <button class="btn_confirm_prepar">ยืนยันคำสั่ง</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <button id="confirm_serve">ยืนยันเสิร์ฟอาหาร</button>
+                    </div>
+                </li>  -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="./kitchen.js"></script>
+</body>
+</html>

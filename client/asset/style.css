@@ -1,0 +1,713 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* hide scrollbar */
+.main_menu::-webkit-scrollbar {
+    display: none;
+}
+  
+.main_menu {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+ul::-webkit-scrollbar {
+    display: none;
+}
+
+ul {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* --------------------------------------------- */
+
+
+.container {
+    /* margin: 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    padding: 6%;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+nav i {
+    font-size: 2.2rem;
+}
+
+nav a:active {
+    color: #3b000a;
+}
+
+.container_menu {
+    /* margin-top: 4%; */
+    padding: 0;
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px gray;
+    display: flex;
+    justify-content: center;
+}
+
+.left_menu {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+
+.btn_menu {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 8px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 5px gray;
+    background-color: #A4031F;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.btn_menu:active {
+    background-color: #3b000a;
+}
+
+/* .btn_menu i {
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+
+.btn_menu p {
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+} */
+
+
+.main_menu {
+    margin-top: 20px;
+    width: 70%;
+    margin: 3%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: auto;
+    align-content: flex-start;
+    overflow: scroll;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 180px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px gray;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.box img {
+    margin-top: 4px;
+    height: 120px;
+    width: 120px;
+    
+}
+
+a {
+    color: #A4031F;
+    text-shadow: 3px 2px 6px gray;
+}
+
+.container_order {
+    /* margin-top: 24px; */
+    width: 100%;
+    height: 85%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+
+}
+
+
+
+.container_order h3 {
+    color: white;
+    font-size: 30px;
+    margin: 16px 0px 8px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    width: 94%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.list_order {
+   padding: 0.8rem;
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 0.6rem;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    align-items: center;
+}
+
+.order_container {
+    margin: 8px 4px 8px 10px;
+    width: 100%;
+    text-align: left;  
+    position: relative;
+    height: 100%;
+}
+
+.list_order img {
+    height: 8rem;
+}
+
+.list_order h5 {
+    font-size: 0.9rem;
+    padding: 4px 3px;
+}
+
+.myorder-size {
+    color: #A4031F;
+}
+
+.add-remove {
+    width: 100%;
+    position: absolute;
+    margin-top: 0.3rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #888;
+    padding: 0.2rem 0.3rem;
+    border-radius: 55px;
+}
+
+.add-remove i {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.add-remove h5 {
+    font-size: 1.5rem;
+    padding-top: 0.3rem;
+}
+
+.add-remove button {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;  
+}
+
+.add {
+    background-color: green;
+}
+
+.remove {
+    background-color: red;
+}
+
+
+.add:active {
+    background-color: rgb(0, 93, 0);
+}
+
+.remove:active {
+    background-color: rgb(152, 0, 0);
+}
+
+#confirm-order {
+    width: 90%;
+    margin: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 16px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(2, 185, 2);
+    color: white;
+}
+
+#confirm-order:active {
+    background-color: green;
+}
+
+
+
+
+
+/* modal to order menu index  */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+  
+  /* Modal Content/Box */
+/* ------------------------------------------------------------------------- */
+
+.modal-content {
+    background-color: white;
+    margin: 2.5rem auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    height: 85%;
+    border-radius: 25px;
+    position: relative;
+}
+  
+  /* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: auto;
+    z-index: 2;
+}
+  
+.close:active {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-close {
+    font-size: 40px;
+}
+
+.modal-menu {
+    margin-top: 30px;
+    width: 100%;
+    height: 95%;
+    position: relative;
+    
+}
+
+.modal-box {
+    margin: 16px auto 0px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-menu .box img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-menu .box {
+    width: 8rem;
+    padding: 8px;
+    height: 8rem;
+}
+
+.modal-menu h4 {
+    font-size: 1.5rem;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.menu-size {
+    margin: 16px 0px 0px;
+    padding: 8px;
+    justify-content: space-around;
+    text-align: center;
+    display: none;
+}
+
+.menu-size h5 {
+    font-size: 1.2rem;
+}
+
+.sizebox {
+    width: 4rem;
+    height: 70%;
+    padding: 8px;
+    background-color: #A4031F;
+    margin-bottom: 8px;
+    border-radius: 13px;
+    text-align: center;
+    border: none;
+}
+
+.size-active, .sizebox:hover {
+    background-color: #3b000a;
+}
+
+.sizebox i {
+    color: white;
+    font-size: 2rem;
+}
+
+.add-remove-modal-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px 0px;
+    margin: 8px auto 0px;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+    gap: 0.7rem;
+    border-radius: 8px;
+}
+
+.add-remove-modal-menu h5 {
+    font-size: 1.7rem;  
+    border:1px solid #888; 
+    width: 100%;
+    padding-block: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.add-remove-button {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.add-remove-modal-menu button {
+    padding: 1.4rem;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.add-remove-modal-menu .add, .remove {
+    height: 3rem;
+    
+}
+
+.add-remove-modal-menu .modal-button-confirm-order {
+    background-color: rgb(2, 185, 2);
+    height: 3rem;
+    width: 100%;
+    padding: 1.4rem;
+    font-size: 1.2rem;
+}
+
+.modal-button-confirm-order:active {
+    background-color: green;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .modal-menu h4 {
+        font-size: 1.2rem;
+        padding-left: 8px;
+        padding-top: 8px;
+    }
+
+    .modal-menu .box {
+        width: 6rem;
+        height: 6rem;
+        padding: 8px;
+    }
+
+    .modal-menu .box img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .sizebox {
+        width: 3rem;
+        height: 80%;
+    }
+
+    .sizebox i {
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
+    .add-remove-modal-menu h5 {
+        font-size: 1.5rem;
+        
+    }
+
+    .menu-size {
+        margin: 0.8rem 0px 0px;
+    }
+
+    .menu-size h5 {
+        font-size: 0.8rem;
+    }
+
+    .add-remove-modal-menu .add, .remove {
+        height: 3rem;
+        
+    }
+
+
+    .add-remove-modal-menu button {
+        padding: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+    
+        
+    }
+    
+    .add-remove-modal-menu .modal-button-confirm-order {
+        height: 3rem;
+        width: 100%;
+        padding: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+        
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .container h1 {
+        font-size: 4rem;
+    }
+
+    nav {
+        font-size: 2rem;
+    }
+
+    nav i {
+        font-size: 4.2rem;
+    }
+
+    .box {
+        font-size: 2rem;
+        height: 20rem;
+    }
+
+    .box img {
+        margin-top: 4px;
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .btn_menu {
+        width: 70%;
+        height: 13%;
+        margin-bottom: 8px;
+        border-radius: 14px;
+        box-shadow: 3px 3px 5px gray;
+        background-color: #A4031F;
+        border: none;
+        color: white;
+        font-size: 1.8rem;
+    
+    }
+
+    .modal-close {
+        font-size: 5rem;
+        top: 10px;
+        right: 20px;
+    }
+
+    .modal-menu h4 {
+        font-size: 2.2rem;
+        padding-left: 8px;
+        padding-top: 8px;
+    }
+
+    .modal-menu .box {
+        width: 13rem;
+        padding: 8px;
+        height: 13rem;
+    }
+
+    .menu-size {
+        height: 10rem;
+    }
+
+    .sizebox {
+        width: 8rem;
+        height: 90%;
+    }
+
+    .menu-size h5 {
+        font-size: 2.2rem;
+    }
+
+    .add-remove-modal-menu {
+        gap: 1.5rem;
+    }
+
+    .add-remove-modal-menu h5 {
+        font-size: 3.2rem;
+    }
+
+    .add-remove-modal-menu .add,.add-remove-modal-menu .remove {
+        height: 6rem;
+        font-size: 2.5rem;
+    }
+
+    .add-remove-modal-menu .modal-button-confirm-order {
+        height: 6rem;
+        font-size: 3rem;
+    }
+
+
+    .add-remove-modal-menu h5 {
+        position: absolute;
+        width: 35%;
+        font-size: 4.5rem;
+        margin-top: 0.1rem;
+    }
+
+    .add-remove-button {
+        position: relative;
+        justify-content: space-between;
+   
+    }
+
+    .add-remove-modal-menu .add,.add-remove-modal-menu .remove {
+        height: 6.5rem;
+        width: 10rem;
+        
+    }
+
+
+
+    .list_order {
+        height: 18rem;
+    }
+
+    .list_order img {
+        height: 16rem;
+    }
+
+    .list_order h5 {
+        font-size: 2rem;
+        padding: 4px 3px;
+    }
+
+    .add-remove {
+        margin-top: 1rem;
+        height: 6rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .add-remove button {
+        width: 20%;
+        height: 90%;
+        
+    }
+
+    .add-remove i {
+        font-size: 2.5rem;
+        color: white;
+    }
+
+    .add-remove h5 {
+        font-size: 3rem;
+        padding-top: 0.3rem;
+    }
+
+    #confirm-order {
+        font-size: 3rem;
+    }
+
+    .close {
+        font-size: 3rem;
+    }
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}   
+
+
+@media only screen and (max-height: 620px ) {
+
+    .add-remove-modal-menu h5 {
+        position: absolute;
+        width: 40%;
+    }
+
+    .add-remove-button {
+        position: relative;
+        justify-content: space-between;
+   
+    }
+
+    .add-remove-modal-menu .add,.add-remove-modal-menu .remove {
+        height: 1.5rem;
+        width: 1.5rem;
+        
+    }
+
+}

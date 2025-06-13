@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uro Shabu</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- socket.io -->
+    <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Uro Shabu</h1>
+        <nav>
+            <a href="index.html"><p><i class="fa-solid fa-house"></i></p></a>
+            <p>-- Table 1 --</p>
+            <a href="myorder.html"><p><i class="fa-solid fa-basket-shopping"></i></p></a>
+        </nav>
+        <div class="container_menu">
+            <div class="left_menu" id="left_menu">
+                <button id="btn_all" class="btn_menu" data-category="all_menu"><i class="fa-solid fa-utensils"></i><p>เมนู</p></button>
+                <button id="btn_pork" class="btn_menu" data-category="pork"><i class="fa-solid fa-bacon"></i><p>หมู</p></button>
+                <button id="btn_beef" class="btn_menu" data-category="beef"><i class="fa-solid fa-cow"></i><p>เนื้อ</p></button>
+                <button id="btn_seafood" class="btn_menu" data-category="seafood"><i class="fa-solid fa-fish"></i><p>อาหารทะเล</p></button>
+                <button id="btn_etc" class="btn_menu" data-category="etc"><i class="fa-solid fa-egg"></i><p>อื่นๆ</p></button>
+                <button id="btn_vegtable" class="btn_menu" data-category="vegetable"><i class="fa-solid fa-carrot"></i><p>ผัก</p></button>
+                <button id="btn_cheese" class="btn_menu" data-category="cheese"><i class="fa-solid fa-cheese"></i><p>ชีส</p></button>
+                
+            </div>
+            <div class="main_menu" id="main_menu">
+                <!--<div class="box">
+                     <img src="img/Sliced_Pork_Loin.jpg" alt="">
+                    <h4>Sliced Pork Loin</h4>
+                    <h4>สันนอกหมูสไลด์</h4>
+                </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- modal to order menu -->
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close modal-close">&times;</span>
+            <div class="modal-menu">
+                <div class="modal-menu-info" id="modal-menu-info">
+                    <!-- <h4>Sliced Pork Loin</h4>
+                    <h4>สันนอกหมูสไลด์</h4>
+                    <div class="box modal-box">
+                        <img src="img/Sliced_Pork_Loin.jpg" alt="">
+                    </div>
+                    <div class="menu-size" id="menu-size">
+                        <div>
+                            <button id="size-s" class="sizebox size-active"><i class="fa-solid fa-s"></i></button>
+                            <h5>เล็ก</h5>
+                        </div>
+                        <div>
+                            <button id="size-m" class="sizebox"><i class="fa-solid fa-m"></i></button>
+                            <h5>กลาง</h5>
+                        </div>
+                        <div>
+                            <button id="size-l" class="sizebox"><i class="fa-solid fa-l"></i></button>
+                            <h5>ใหญ่</h5>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="add-remove-modal-menu" id="add-remove-modal-menu">
+                    <h5></h5>
+                    <div class="add-remove-button">
+                        <button id="remove-order" class="remove"><i class="fa-solid fa-minus"></i></button>
+                        <button id="add-order" class="add"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <button id="modal-confirm-order" class="modal-button-confirm-order">ยืนยัน</button>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+
+    <script src="asset/script.js"></script>
+
+</body>
+    
+</html>
